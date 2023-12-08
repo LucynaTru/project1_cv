@@ -1,0 +1,191 @@
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    padding-bottom: 25px;
+}
+
+.hero-img img {
+    max-width: 70%;
+    border: 6px solid var(--primary-color);
+}
+ 
+.col-left-bg {
+    background-color: var(--left-column-backgraound);
+}
+
+.contact, .courses {
+    background-color: var(--primary-color);
+}  
+
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: var(--white);
+    display: block;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.contact .contact i {
+    color: var(--primary-color);
+    font-size: 24px;
+}
+
+.skills {
+    background-color: var(--skyblue);
+} 
+
+.col-left-title {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: -30px;
+    background-color: var(--black);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 68%;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+
+.skills,
+.courses,
+.contact {
+    min-height: 320px;
+}
+
+.contact .col-left-title,
+.courses .col-left-title {
+    background-color: var(--primary-color);
+}
+
+.skills .col-left-title {
+    background-color: var(--skyblue);
+}
+
+.contact.wrapper {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15%;
+}
+
+.contact.wrapper .row {
+    margin: 5px 0;
+}
+
+.phone,
+.address,
+.website,
+.email {
+    width: 80%;
+}
+
+.skills-list {
+    list-style-type: disc;
+    margin: 10px 0 10px 70px;
+    color: var(--white);
+    line-height: 23px;
+    width: 70%;
+}
+
+.title-bg {
+    background-color: var(--left-column-backgraound);
+    padding: 10px 0;
+    position: relative;
+    left: -10px;
+}
+
+.title-bg i {
+    color: var(--primary-color);
+    margin: 0 30px;
+    font-size: 30px;
+    width: 30px;
+}
+.title-bg::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    transform: rotate(390deg);
+    position: absolute;
+    top: -15px;
+    left: 4px;
+    border-style: solid;
+    border-width: 15px 0 5px 11px;
+    border-color: transparent transparent transparent #969697;
+}
+
+.eduction,
+.item,
+.description {
+    /* padding: 10px; */
+    margin-left: 5%;
+}
+
+.hero-header {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    flex-direction: row;
+    color: var(--primary-color);
+    line-height: 3.125rem;
+}
+
+.hero-header h2 {
+    position: absolute;
+    right: 3%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.item-date, 
+.item-name, 
+.item-position,
+.item-description {
+    margin: 5px 5px;
+}
+
+.item-name {
+    font-weight: 700;
+}
+
+.eduction .item {
+    width: 80%;
+    margin-left: 10%;
+    padding: 0px 20px;
+}
+
+.workexperience .item {
+    width: 80%;
+    margin-left: 5%;
+}
+
+.ch-position {
+    position: relative;
+    top: -50px;
+}
+
+.description {
+    color: var(--black); 
+    padding: 5% 0;
+    line-height: 20px;
+    text-align: justify;
+    width: 72%;
+}
+
+/* metoda prowadzania checkboxa do formularza
+
+.ala {
+    display: none;
+}
+
+input:checked ~ .ala {
+    display: block;
+} */

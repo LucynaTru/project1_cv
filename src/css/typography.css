@@ -1,0 +1,72 @@
+html {
+    font-size: 100%
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white);
+    font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6
+.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--white); 
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.125rem;
+    /* font-size: 50px; */
+    /* rem - jednostka miary przy programowaniu
+    60px/16px=3.750rem 
+    domyślnie 1 rem to 16px*/
+}
+
+h2 {
+    font-size: 1.75rem;
+    /* font-size: 28px; */
+    /* 28/16=1.75 */
+   
+}
+
+h3, .h3 {
+    font-size: 28px;
+}
+
+h4 {
+    
+}
+
+h5 {
+
+}
+
+h6 {
+     
+}
+
+.col-left-title {
+    color: var(--white);
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.col-right-title {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.address {
+    color: var(--white);
+}
+
+

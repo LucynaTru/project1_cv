@@ -1,0 +1,44 @@
+.container{
+    max-width: 890px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 14px -4px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 14px -4px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 14px -4px rgba(66, 68, 90, 1);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+    
+
+    /* jeżeli chcemy, żeby element był jeden pod drugim */
+.flex-column{
+    flex-direction: column;
+}
+
+/* jeżeli chcemy, żeby elementy były obok siebie */
+.flex-row{
+    flex-direction: row;
+}
+
+/* jeżeli chcemy wyśrodkować elementy względem wysokości wieszy */
+.aling-items {
+    align-items: center;
+}
+
+.jc-space-around {
+    justify-content: space-around;
+}
+
+.col-left {
+    width: 40%;
+}
+
+.col-right {
+    width: 60%;
+}
+

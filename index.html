@@ -5,146 +5,186 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekt1_cv</title>
     <meta name="description" content="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-<!--  -->
+    <!-- <input type="checkbox" name="" id="">
+    <p class="ala">Ala ma kota</p> -->
 
-<!-- odnośniki -->
-    <a href="https://google.pl" target="_blank">Google</a>
-    <a href="index.html" target="_parent">Plik</a>
-    <a href="#sekcja">Sekcja na stronie</a>
-    <a href="malto:email@gmail.com">email@gmail.com</a>
-    <a href="tel:123234345">123234345</a>
-    <a href="https://google.pl/" target="_self">otwórz plik jgp</a>
-    <a href="https://google.pl/" target="_top">otwórz plik jgp</a>
-    <!-- target określa w jakim sposób się otwiera dany odnośnik czy w nowej karcie, na tej samej itp -->
-    <!-- różnica między stylami 
-    span nie ogranicza do kontenera
-    div tak -->
-    <style>
-        span,
-        div {
-            width: 50px;
-            height: 50px;
-            margin: 10px;
-            background-color: red;
-        }
-    </style>
+    
+    <div class="container">
+        <div class="row flex flex-row flex-column-m">
+            <div class="col-left hero-img col-left-bg">
+                <img src="src/img/lucyna-truszczynska.jpg" alt="">
+            </div>
+            <div class="col-right hero-header col-right-bg">
+                <h1>Lucyna <span class="bold">Truszczyńska</span>
+                </h1>
+                <h2>Administrator</h2>
+            </div>
+        </div>
+        <div class="row flex flex-row flex-column-m">
+            <div class="col-left">
+                <div class="contact col-left-bg">
+                    <span class="h3 col-left-title">Contact</span>
+                    <div class="contact wrapper">
+                        <div class="row flex flex-row aling-items jc-space-around">
+                            <span class="circle">
+                                <i class="fa-solid fa-phone cv-left-i"></i>
+                            </span>
+                            <div class="phone">
+                                <a href="tel.531078805">531-078-805</a>
+                            </div>
+                        </div>
+                        <div class="row flex flex-row aling-items jc-space-around">
+                            <span class="circle">
+                                <i class="fa-solid fa-house cv-left-i"></i>
+                            </span>
+                            <div class="address">
+                                ul. Fundamentowa 3C/27<br>80-298 Gdańsk
+                            </div>
+                        </div>
+                        <div class="row flex flex-row aling-items jc-space-around">
+                            <span class="circle">
+                                <i class="fa-solid fa-globe cv-left-i"></i>
+                            </span>
+                            <div class="website">
+                                <a href="https://lidzbark.netlify.app">website</a>
+                            </div>
+                        </div>
+                        <div class="row flex flex-row aling-items jc-space-around">
+                            <span class="circle">
+                                <i class="fa-solid fa-at cv-left-i"></i>
+                            </span>
+                            <div class="email">
+                                <a href="mailto:l_truszczynska@wp.pl">l_truszczynska@wp.pl</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <span class="h3 col-left-title">Skills</span>
+                    <ul class="skills-list skills-list-m">
+                        <li>Administration</li>
+                        <li>Invoicing</li>
+                        <li>Driving license</li>
+                        <li>MS Office</li>
+                        <li>Data analysis</li>
+                        <li>Reporting</li>
+                    </ul>
+                </div>
+                <div class="courses col-left-bg">
+                    <span class="h3 col-left-title">Courses</span>
+                    <ul class="skills-list">
+                        <li>SQL course - databases from scratch</li>
+                        <li>Basic MySQL database course</li>
+                        <li>MongoDB course - modern databases</li>
+                        <li>T-SQL course in Microsoft SQL Server from scratch</li>
+                        <li>GoIT Marathon - HTML/CSS training</li>
+                        <li>GoIT Marathon - Test Drive</li>
+                    </ul>
+                </div>
+            </div>
 
-    <span>Jan Kowalski</span>
-    <div>Jan Kowalski</div>
-<!-- hr tworzenie linii -->
-    <hr>
+<!-- sekcja o mnie -->
+            <div class="ch-position col-right col-right-bg">
+                <div class="aboutme">
+                    <div class="title-bg">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="h3 col-right-title">About Me</span>
+                    </div>
+                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis molestias
+                        harum, libero odio magnam, recusandae tempore quidem ullam facere architecto at unde. Provident,
+                        excepturi sapiente facilis qui recusandae laboriosam deserunt.</p>
+                </div>
 
-    <div>Jan Kowalski</div>
-    <div>Jan Kowalski</div>
+<!-- sekcja edukacji -->
+                <div class="education">
+                    <div class="title-bg">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span class="h3 col-right-title">Education</span>
+                    </div>
 
-    <hr>
-<!-- skrótowe rozpisanie nagłówków we wszystkich wielkościach -->
-    h1+h2+h3+h4+h5+h6
-    <h1>dea</h1>
-    <h2>gfd</h2>
-    <h3>hhy</h3>
-    <h4>htr</h4>
-    <h5>ret</h5>
-    <h6>ert</h6>
+                    <!-- 1 pozycja w sekcji edukacja -->
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2011-2015</div>
+                        <div class="item-position">Care and educational pedagogy - Bachelor's degree</div>
+                        <div class="item-name">University of Gdansk, Gdańsk</div>
+                        <div class="item-description"></div>
+                    </div>
 
-    <!-- skrótowe uzupełnienie listy ul punktowej i ol liczbowej -->
-    ul>li*5{Jan Nowak}
-    <ul>
-        <li>Jan Nowak</li>
-        <li>Jan Nowak</li>
-        <li>Jan Nowak</li>
-        <li>Jan Nowak</li>
-        <li>Jan Nowak</li>
-    </ul>
-    ol>li*5{Mi mam mo mu}
-    <ol>
-        <li>Mi ma mo mu</li>
-        <li>Mi ma mo mu</li>
-        <li>Mi ma mo mu</li>
-        <li>Mi ma mo mu</li>
-        <li>Mi ma mo mu</li>
-    </ol>
-<!-- wprowadzenie tekstu w kontenerze <p> -->
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi culpa odit, obcaecati nam sequi ea excepturi corporis delectus quisquam, cupiditate quis amet laboriosam quo aliquid facere aliquam ipsa totam dolores!
-    </p>
-<!-- tworzenie tabeli  -->
-<table>
-    <thead>
-        <th>Lp.</th>
-        <th>Imię</th>
-        <th>Nazwisko</th>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>Jan</td>
-                <td>Kowalski</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Adam</td>
-                <td>Nowak</td>
-            </tr><tr>
-                <td>3</td>
-                <td>Grażyna</td>
-                <td>Kowalska</td>
-            </tr><tr>
-                <td>4</td>
-                <td>Anna</td>
-                <td>Kociba</td>
-            </tr>
-        </tbody>
-    </thead>
-</table>
-<!-- wprowadzanie formularza. Przykład get. bez wpisania div formularz będzie wyświetlany jeden obok drugiego. po dodaniu div wpisuje się jedno pod drugie -->
-<form action="" method="get">
-    <div>
-        <label for="">Imię</label>
-        <input type="text" name="" id="">
+                    <!-- 2 pozycja w sekcji edukacja -->
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2007-2011</div>
+                        <div class="item-position">Technician economist</div>
+                        <div class="item-name">Vocational School Complex, Brodnica</div>
+                        <div class="item-description"></div>
+                    </div>
+                </div>
+
+<!-- sekcja doświadczenia w pracy -->
+                <div class="workexperience">
+                    <div class="title-bg">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <span class="h3 col-right-title">Work Experiance</span>
+                    </div>
+
+                    <!-- 1 pozycja w sekcji doświadczenia -->
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2022-2023</div>
+                        <div class="item-position">Billing Specialist</div><br>
+                        <div class="item-name">Grupa GPEC, Gdańsk</div>
+                        <div class="item-description">Issuing invoices and settling GPEC Group clients. Entering and
+                            updating data needed for customer billing in IT systems. Analysis of the correctness of
+                            indications of measuring devices. Preparation of reports and summaries related to the sale
+                            of heat and other products of the GPEC Group. Administration of premises from development
+                            investments of the GPEC Group.</div>
+                    </div>
+
+                    <!-- 2 pozycja w sekcji doświadczenia -->
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2020-2022</div>
+                        <div class="item-position">Real estate administrator</div><br>
+                        <div class="item-name">Nasza Wspólnota ZAiN Sp. z o.o., Gdańsk</div>
+                        <div class="item-description">Taking care of the proper functioning of a given facility.
+                            Supervision of cooperating companies. Cooperation with the Management Board and organization
+                            of reporting meetings. Keeping construction documentation and preparing settlements for
+                            individual premises. Drafting resolutions and regulations.</div>
+                    </div>
+
+                    <!-- 3 pozycja w sekcji doświadczenia -->
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2017-2022</div>
+                        <div class="item-position">Promotion Coordinator</div><br>
+                        <div class="item-name">Kompania Piwowarska, Pruszcz Gdański</div>
+                        <div class="item-description">Ongoing control of the promotion of 2 beer brands, keeping full
+                            documentation of settlements with the company's employees and systematic preparation of
+                            reports on the activities carried out.</div>
+                    </div>
+
+                    <!-- 4 pozycja w sekcji doświadczenia --> 
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2016-2017</div>
+                        <div class="item-position">Digitization specialist</div><br>
+                        <div class="item-name">PIKA, Gdańsk</div>
+                        <div class="item-description">Archiving bank documents, preparing a digital version of documents
+                            based on a paper version.</div>
+                    </div>
+
+                    <!-- 5 pozycja w sekcji doświadczenia -->
+                    <div class="item flex flex-row flex-wrap">
+                        <div class="item-date">2015-2016</div>
+                        <div class="item-position">Supervising teacher</div><br> 
+                        <div class="item-name">Placówka Opiekuńczo Wychowawcza Olek, Lidzbark</div>
+                        <div class="item-description">24-hour care for children and youth, interference in upbringing
+                            and education processes, organizing free time and meeting all the needs of the child.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div>
-        <label for="">Nazwisko</label>
-        <input type="text" name="" id="">
     </div>
-    <div>
-        <label for="">Hasło</label>
-        <input type="password" name="" id="">
-    </div>
-    <div>
-        <label for="">Email</label>
-        <input type="email" name="" id="">
-    </div>
-<!-- możliwość wprowadzenia aktywnego przycisku na dwa sposoby -->
-    <input type="submit" value="Wyślij">
-    <button type="submit">Wyślij</button>
-</form>
-<!-- formularz do rozwinięcia i wybrania danej opcji -->
-<form action="/action_page.php">
-    <input list="browsers">
-    <datalist id="browsers">
-      <option value="Edge">
-      <option value="Firefox">
-      <option value="Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
-  </form>
-
-  <!-- suwak z wyborem opcji -->
-  <form action="/action_page.php"
-  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-  0
-  <input type="range"  id="a" name="a" value="50">
-  100 +
-  <input type="number" id="b" name="b" value="50">
-  =
-  <output name="x" for="a b"></output>
-  <br><br>
-  <input type="submit">
-</form>
-
 </body>
+
 </html>
